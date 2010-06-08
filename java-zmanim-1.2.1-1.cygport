@@ -1,0 +1,11 @@
+inherit ant
+
+DESCRIPTION="Java Zmanim API"
+HOMEPAGE="http://www.kosherjava.com/zmanim-project/"
+SRC_URI="http://www.kosherjava.com/zmanim/release/${P#java-}.zip"
+SRC_DIR=.
+
+ANT_BUILD_XML="build/build.xml"
+ANT_BUILD_ARGS="-Dsrc_dir=src -Dthird_party_jars=${JAVA_DIR}"
+ANT_INSTALL_JARS="lib/zmanim-${PV}.jar"
+ANT_INSTALL_JAVADOC="docs/api"

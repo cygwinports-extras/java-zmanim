@@ -1,0 +1,6 @@
+category: Java
+requires: 
+sdesc: "Java Zmanim (halachic times) API"
+ldesc: "The Zmanim ('times' referring to the calculations of time that 
+govern the start and end time of Jewish prayers and holidays) project is 
+a Java API for generating zmanim from within Java programs."
