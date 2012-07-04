@@ -2,7 +2,7 @@ inherit ant
 
 DESCRIPTION="Java Zmanim API"
 HOMEPAGE="http://www.kosherjava.com/zmanim-project/"
-SRC_URI="http://kosherjava.googlecode.com/files/${P#java-}.zip"
+SRC_URI="http://kosherjava.googlecode.com/files/zmanim-1.3.0beta-Dec-18-2011.zip"
 SRC_DIR=.
 
 DISTCLEANFILES="lib/*.jar"
